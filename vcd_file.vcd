@@ -1,0 +1,190 @@
+$date
+	Mon Jun 03 21:33:14 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module top_module_tb $end
+$var wire 1 ! card_declined $end
+$var reg 10 " card_no [9:0] $end
+$var reg 10 # card_pin [9:0] $end
+$var reg 1 $ clk $end
+$var reg 10 % deposit_money [9:0] $end
+$var reg 11 & expiry_date [10:0] $end
+$var reg 10 ' new_pin [9:0] $end
+$var reg 3 ( operation [2:0] $end
+$var reg 1 ) reset $end
+$var reg 10 * transfer_amount [9:0] $end
+$var reg 10 + transfer_no [9:0] $end
+$var reg 10 , withdraw_amount [9:0] $end
+$scope module uut $end
+$var wire 10 - card_no [9:0] $end
+$var wire 10 . card_pin [9:0] $end
+$var wire 1 $ clk $end
+$var wire 10 / deposit_money [9:0] $end
+$var wire 11 0 expiry_date [10:0] $end
+$var wire 10 1 new_pin [9:0] $end
+$var wire 3 2 operation [2:0] $end
+$var wire 1 ) reset $end
+$var wire 10 3 transfer_amount [9:0] $end
+$var wire 10 4 transfer_no [9:0] $end
+$var wire 10 5 withdraw_amount [9:0] $end
+$var wire 4 6 senders_index [3:0] $end
+$var wire 1 7 sender_exist $end
+$var wire 4 8 sendee_index [3:0] $end
+$var wire 1 9 sendee_exist $end
+$var reg 1 ! card_declined $end
+$var reg 3 : state [2:0] $end
+$var integer 32 ; i [31:0] $end
+$scope module sendee_account $end
+$var wire 10 < card_no [9:0] $end
+$var wire 11 = expiry_date [10:0] $end
+$var wire 4 > index [3:0] $end
+$var reg 4 ? index_temp [3:0] $end
+$var reg 1 9 is_exist $end
+$var integer 32 @ i [31:0] $end
+$upscope $end
+$scope module senders_account $end
+$var wire 10 A card_no [9:0] $end
+$var wire 11 B expiry_date [10:0] $end
+$var wire 4 C index [3:0] $end
+$var reg 4 D index_temp [3:0] $end
+$var reg 1 7 is_exist $end
+$var integer 32 E i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10000 E
+b0 D
+b0 C
+b1000110101 B
+b1100100 A
+b10000 @
+b1 ?
+b1 >
+b1000110101 =
+b11001000 <
+b10000 ;
+b0 :
+19
+b1 8
+17
+b0 6
+b10100 5
+b11001000 4
+b110010 3
+b0 2
+b1111100111 1
+b1000110101 0
+b11110 /
+b1100100 .
+b1100100 -
+b10100 ,
+b11001000 +
+b110010 *
+0)
+b0 (
+b1111100111 '
+b1000110101 &
+b11110 %
+0$
+b1100100 #
+b1100100 "
+0!
+$end
+#5000
+1$
+#10000
+0$
+#15000
+1$
+#20000
+b111 :
+0$
+1)
+#25000
+1$
+#30000
+b1 :
+0$
+b1 (
+b1 2
+0)
+#35000
+b0 :
+1$
+#40000
+b10 :
+0$
+b10 (
+b10 2
+#45000
+b0 :
+1$
+#50000
+b110 :
+0$
+b110 (
+b110 2
+#55000
+b0 :
+1$
+#60000
+b101 :
+0$
+b101 (
+b101 2
+#65000
+b0 :
+1$
+#70000
+b1 :
+0$
+b1 (
+b1 2
+b1111100111 #
+b1111100111 .
+#75000
+b0 :
+1$
+#80000
+b10 :
+0$
+b10 (
+b10 2
+#85000
+b0 :
+1$
+#90000
+b11 :
+0$
+b11 (
+b11 2
+#95000
+b0 :
+1$
+#100000
+b110 :
+0$
+b110 (
+b110 2
+#105000
+b0 :
+1$
+#110000
+b100 :
+0$
+b100 (
+b100 2
+#115000
+b0 :
+1$
+#120000
+b100 :
+0$
